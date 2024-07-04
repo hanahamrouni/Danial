@@ -1,0 +1,488 @@
+/* ===============================Home Section============================ */
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar-brand,
+.main h5,
+.main i,
+#element,
+.Services_contant .bg-white:hover i,
+.layer i,
+.icons i,
+.Team .bg_name{
+    color: #ffffff;
+}
+
+.main h5,
+#element,
+.About h3,
+.Services h3,
+.Services_contant h6,
+.Portfolio h3,
+.Clients h3,
+.carousel-inner h6,
+.Clients_2 h3,
+.Team h3,
+.Team .bg_name h4,
+.Team .bg_name h5,
+.Contact h6,
+.Contact h3 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.About .about_prag,
+.About p,
+.carousel-inner span,
+.Services_contant p,
+.layer h6,
+.carousel-inner p,
+.Clients_2 p,
+.Contact p {
+    font-family: "Poppins", sans-serif;
+}
+
+.Home {
+    background-image: url(../imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-home {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main h5 {
+    font-size: 3.125rem;
+    line-height: 3.4375rem;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.main i {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+}
+
+.typing {
+    font-size: 3.75rem;
+    font-weight: 200;
+
+}
+
+#element {
+    font-size: 3.75rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+}
+
+/* ===============================About Section============================ */
+
+.About {
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+
+.web {
+    left: 80%;
+}
+
+.About h3 {
+    font-size: 1.875rem;
+    font-weight: 800;
+    line-height: 2.0625rem;
+    color: #343434;
+}
+
+.About .about_prag {
+    color: #999999;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.15rem;
+}
+
+.About p {
+    font-size: 1rem;
+    color: #748182;
+}
+
+.About .about_prag,
+.About p {
+    font-weight: 400;
+}
+
+.btn-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.progress-bar1 {
+    animation: moving 3s 1;
+    width: 95%;
+}
+
+@keyframes moving {
+    35% {
+        width: 35%;
+        display: none;
+    }
+
+    95% {
+        width: 95%;
+        display: block;
+    }
+}
+
+.progress-bar2 {
+    animation: moving_2 3s 1;
+    width: 80%;
+}
+
+@keyframes moving_2 {
+    35% {
+        width: 35%;
+        display: none;
+    }
+
+    80% {
+        width: 80%;
+        display: block;
+    }
+}
+
+.progress-bar3 {
+    animation: moving_3 3s 1;
+    width: 90%;
+}
+
+@keyframes moving_3 {
+    35% {
+        width: 35%;
+        display: none;
+    }
+
+    90% {
+        width: 90%;
+        display: block;
+    }
+}
+
+/* ===============================Services Section============================ */
+
+.Services {
+    background-color: #f7f7f7;
+    padding-bottom: 6rem;
+}
+
+.Services h3 {
+    font-size: 2.5rem;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    font-weight: 900;
+}
+
+.Services_contant i {
+    background-color: #f4f4f4;
+    padding-top: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.Services_contant .bg-white:hover i {
+    background-color: black;
+}
+
+.Services_contant h6 {
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.2375rem;
+    color: #343434;
+}
+
+.Services_contant p {
+    line-height: 1.4rem;
+    font-weight: 400;
+    color: #748182;
+}
+
+/* ===============================Works Section============================ */
+
+.Portfolio {
+    padding-bottom: 6rem
+}
+
+.Portfolio h3 {
+    font-size: 2.5rem;
+    color: #343434;
+    font-weight: 900;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.layer h6 {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #343434;
+}
+
+.layer i {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border: 1px black solid;
+}
+
+.layer i:hover {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+}
+
+.layer {
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    bottom: 0rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    opacity: 0;
+    transition: 0.4s all;
+}
+
+.layer:hover {
+    opacity: 1;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+}
+
+/* ===============================Clients Section============================ */
+
+.Clients {
+    background-color: #f7f7f7;
+    padding-bottom: 10rem;
+}
+
+.Clients h3 {
+    font-size: 2.5rem;
+    color: #343434;
+    font-weight: 900;
+}
+
+.carousel-inner img {
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.carousel-inner p {
+    font-size: 0.9375rem;
+    color: #748182;
+}
+
+.carousel-inner h6 {
+    font-size: 1rem;
+    color: #343434;
+}
+
+.carousel-inner span {
+    font-size: 0.75rem;
+    color: #888888;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #818188;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    bottom: -5rem;
+}
+
+.Clients h3 {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.Clients_2 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.Clients_2 h3 {
+    font-size: 1.875rem;
+    font-weight: 900;
+}
+
+.Clients_2 p {
+    font-size: 0.9375rem;
+    color: #748182;
+    font-weight: 600;
+}
+
+/* ===============================Team Section============================ */
+
+.Team {
+    background-color: #f7f7f7;
+    padding-bottom: 8rem;
+}
+
+.Team h3 {
+    font-size: 2.5rem;
+    color: #343434;
+    font-weight: 900;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+.Team .icons {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    opacity: 0;
+    transition: 0.7s all;
+    scale: 0.5;
+}
+
+.Team .team_cont:hover .icons {
+    transform: rotateY(180deg);
+    opacity: 1;
+    scale: 100%;
+}
+
+.Team .team_cont img {
+    transition: 0.5s all;
+}
+
+.Team .team_cont:hover img {
+    transform: scale(1.1);
+}
+
+.Team .teeaam {
+    transition: 0.5s all;
+}
+
+.Team .teeaam:hover .icons {
+    transform: rotateY(180deg);
+    opacity: 1;
+    scale: 100%;
+}
+
+.icons i {
+    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 0.3rem;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    border: 1px solid black;
+}
+
+.icons i:hover {
+    background-color: white;
+    color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 0.3rem;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    border: 1px solid black;
+}
+
+.Team .bg_name {
+    background-color: #5b5b5b;
+}
+
+.Team .bg_name h4 {
+    font-size: 1.6525rem;
+}
+
+.Team .bg_name h5 {
+    font-size: 1.25rem;
+}
+
+/* ===============================Contact Section============================ */
+
+.Contact h3 {
+    font-size: 2.5rem;
+    color: #343434;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.Contact p {
+    font-size: 0.9375rem;
+    color: #748182;
+}
+
+.Contact i {
+    background-color: #f5efef;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.Contact i:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-ccontrol {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #F4F4F4;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #F4F4F4;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.footer {
+    background-color: #1c1c1c;
+    margin-top: 6rem;
+}
+
+.footer p {
+    color: #748182;
+    font-size: 0.8125rem;
+}
+
